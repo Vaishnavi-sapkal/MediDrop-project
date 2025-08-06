@@ -1,0 +1,110 @@
+/* src/components/Footer.css */
+.footer {
+  background-color: #006400; /* Dark Green */
+  color: white;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 60px;  /* Increased from 40px to 60px to add more space */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.footer-section {
+  flex: 1 1 200px;
+}
+
+.footer-section h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-section p, .footer-section a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-social {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.footer-social span {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.footer-social .icon {
+  margin: 0 8px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Platform-specific colors */
+.instagram {
+  color: #e1306c;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.twitter {
+  color: #1da1f2;
+}
+
+.whatsapp {
+  color: #25d366;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid white;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-social {
+    margin-top: 20px;
+  }
+}
