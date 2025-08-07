@@ -44,10 +44,18 @@ const Footer = () => {
 
       <div className="footer-social">
         <span>Follow us:</span>
-        <FaInstagram className="icon instagram" />
-        <FaLinkedin className="icon linkedin" />
-        <FaTwitter className="icon twitter" />
-        <FaWhatsapp className="icon whatsapp" />
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <FaInstagram className="icon instagram" />
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin className="icon linkedin" />
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <FaTwitter className="icon twitter" />
+        </a>
+        <a href="https://wa.me/your-number" target="_blank" rel="noopener noreferrer">
+          <FaWhatsapp className="icon whatsapp" />
+        </a>
       </div>
 
       <div className="footer-bottom">
