@@ -23,8 +23,8 @@
 }
 
 .signup-box {
-  background: linear-gradient(to right, #0b6623, #14532d);
-  color: white;
+  background: #CAF0F8; /* Changed from green gradient to Ocean Breeze */
+  color: black; /* Changed from white to black for better readability */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,7 +78,7 @@ input {
 }
 
 .login-btn {
-  background-color: #14532d;
+  background-color: black; /* From dark green to black */
   color: white;
   border: none;
   padding: 10px;
@@ -88,8 +88,9 @@ input {
 }
 
 .login-btn:hover {
-  background-color: #0b6623;
+  background-color: #333; /* Slightly lighter black for hover */
 }
+
 
 a {
   margin-top: 10px;

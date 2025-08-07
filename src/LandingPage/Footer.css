@@ -1,19 +1,18 @@
-/* src/components/Footer.css */
 .footer {
-  background-color: #006400; /* Dark Green */
-  color: white;
+  background-color: #CAF0F8; /* Ocean Breeze */
+  color: black; /* All text in black */
   padding: 40px 20px;
   font-family: Arial, sans-serif;
 }
+
 .footer-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 60px;  /* Increased from 40px to 60px to add more space */
+  gap: 60px;
   max-width: 1200px;
   margin: 0 auto;
 }
-
 
 .footer-section {
   flex: 1 1 200px;
@@ -23,19 +22,23 @@
   font-size: 28px;
   margin-bottom: 15px;
   font-weight: bold;
+  color: black; /* Heading in black */
 }
 
 .footer-section h3 {
   font-size: 20px;
   margin-bottom: 10px;
   font-weight: bold;
+  color: black; /* Subheading in black */
 }
 
-.footer-section p, .footer-section a {
+.footer-section p,
+.footer-section a {
   font-size: 16px;
-  color: white;
+  color: black; /* Text and links in black */
   text-decoration: none;
   line-height: 1.6;
+  font-weight: normal;
 }
 
 .footer-section a:hover {
@@ -55,11 +58,13 @@
   text-align: center;
   margin-top: 30px;
   font-size: 18px;
+  color: black;
 }
 
 .footer-social span {
   margin-right: 10px;
   font-weight: bold;
+  color: black;
 }
 
 .footer-social .icon {
@@ -68,7 +73,7 @@
   cursor: pointer;
 }
 
-/* Platform-specific colors */
+/* Platform-specific icon colors */
 .instagram {
   color: #e1306c;
 }
@@ -89,8 +94,9 @@
   text-align: center;
   padding-top: 20px;
   font-size: 14px;
-  border-top: 1px solid white;
+  border-top: 1px solid black;
   margin-top: 20px;
+  color: black;
 }
 
 @media (max-width: 768px) {
