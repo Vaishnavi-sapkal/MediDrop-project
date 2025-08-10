@@ -1,0 +1,126 @@
+.footer {
+  background-color: #CAF0F8; /* Ocean Breeze */
+  color: black; /* All text in black */
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+}
+
+.footer-section h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: black; /* Heading in black */
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: black; /* Subheading in black */
+}
+
+.footer-section p,
+.footer-section a {
+  font-size: 16px;
+  color: black; /* Text and links in black */
+  text-decoration: none;
+  line-height: 1.6;
+  font-weight: normal;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-social {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+  color: black;
+}
+
+.footer-social span {
+  margin-right: 10px;
+  font-weight: bold;
+  color: black;
+}
+
+.footer-social a {
+  display: inline-block;
+  margin: 0 8px;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.footer-social a:hover {
+  transform: scale(1.3);
+  opacity: 0.8;
+}
+
+.footer-social .icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Platform-specific icon colors */
+.instagram {
+  color: #e1306c;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.twitter {
+  color: #1da1f2;
+}
+
+.whatsapp {
+  color: #25d366;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid black;
+  margin-top: 20px;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-social {
+    margin-top: 20px;
+  }
+}
