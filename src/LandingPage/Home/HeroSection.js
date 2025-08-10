@@ -1,44 +1,28 @@
 import React from "react";
+
 function HeroSection() {
   return (
-    <div className="container p-5   text-center" style={{ height: 600 }}>
-      <div className="row  ">
-        <div className="col-5 text-center pt-5 mt-5" style={{ height: 600 }}>
-          <h1>Donate Unused Medicines, Help To Save Lives</h1>
-          <p>
+    <div className="container py-5">
+      <div className="row align-items-center">
+        <div className="col-md-6">
+          <h1 className="mb-4 text-center">
+            Donate Unused Medicines, Help Save Lives
+          </h1>
+          <p className="mb-4 text-center">
             A platform to donate unused, unexpired medicines to registered
-            pharmacies.
+            pharmacies — reduce waste, increase impact.
           </p>
-          <div className="button-group">
-            <button
-              className="donate-btn btn btn-success m-3"
-              style={{
-                width: "25%",
-                height: "60px",
-                borderRadius: "10px",
-                paddingLeft: "10px",
-              }}
-            >
+          <div className="d-flex flex-wrap gap-3 justify-content-center">
+            <button className="btn btn-success px-4 py-2">
               Donate Medicines
-            </button>
-            <button
-              className="receive-btn btn btn-primary"
-              style={{
-                width: "25%",
-                height: "60px",
-                borderRadius: "10px",
-                paddingLeft: "10px",
-              }}
-            >
-              Register Pharmacy
             </button>
           </div>
         </div>
-        <div className="col-7" style={{ height: 600 }}>
+        <div className="col-md-6 text-center">
           <img
             src="media/Images/docters.png"
-            alt="Doctor Img"
-            style={{ height: "80%" }}
+            alt="Doctor Illustration"
+            className="img-fluid"
           />
         </div>
       </div>

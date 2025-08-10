@@ -1,56 +1,45 @@
 import React from "react";
+
 function Impact() {
   return (
-    <div className="container2  row mx-5 p-5">
-      <h2 className="mb-5" style={{ color: "#00796B" }}>
-        We are designing to lift humanity , break the barries and heal our
-        world.
-      </h2>
-      <div className="col-5 text-center  p-5" style={{ background: "#F8F8f8" }}>
-        <h4 style={{ color: "#37474F" }}>
-          Every unused medicine you donate can become a lifeline for someone in
-          need . With Medidrop we've already redirected dozones of life-saving
-          medication to verified clinics.
-        </h4>
-      </div>
-      <div className="col-6 row p-5 ">
-        <div className="col-6">
+    <div className="container my-5">
+      <h3 className="mb-4 text-center">Our Impact</h3>
+      <div className="row text-center">
+        <div className="col-md-4 mb-4">
+          <img
+            src="/media/Images/medidonated.Avif"
+            alt="Medicines Donated"
+            className="img-fluid mb-3"
+          />
+          <h5>10,000+ Medicines Donated</h5>
           <p>
-            <i class="fa-solid fa-capsules" style={{ color: "red" }}></i>{" "}
-            <b> 1200+ medicine Donated</b>
-          </p>
-          <p>
-            {" "}
-            <i
-              class="fa-solid fa-house-medical"
-              style={{ color: "#87CEFA" }}
-            ></i>{" "}
-            <b>75+ Pharmacies Helped </b>
-          </p>
-          <p>
-            <i
-              class="fa-solid fa-person-walking-dashed-line-arrow-right"
-              style={{ color: "green" }}
-            ></i>{" "}
-            <b>5000+Lives Impacted </b>
+            We’ve distributed medicines to over 200+ NGOs across the country.
           </p>
         </div>
-        <div className="col-6">
+
+        <div className="col-md-4 mb-4">
+          <img
+            src="/media/Images/lives.webp"
+            alt="Lives Touched"
+            className="img-fluid mb-3"
+          />
+          <h5>7,500+ Lives Touched</h5>
           <p>
-            <i
-              class="fa-solid fa-house-medical"
-              style={{ color: "#87CEFA" }}
-            ></i>{" "}
-            <b> 1200+ medicine Donated</b>
+            Thousands of underprivileged individuals have received timely
+            treatment.
           </p>
+        </div>
+
+        <div className="col-md-4 mb-4">
+          <img
+            src="/media/Images/pharmacy.Avif"
+            alt="Volunteers"
+            className="img-fluid mb-3"
+          />
+          <h5>300+ Volunteers</h5>
           <p>
-            {" "}
-            <i class="fa-solid fa-capsules" style={{ color: "red" }}></i>{" "}
-            <b>75+ Pharmacies Helped </b>
-          </p>
-          <p>
-            <i class="fa-solid fa-person-walking-dashed-line-arrow-right"></i>{" "}
-            <b>5000+Lives Impacted </b>
+            Community-driven support helping us collect, verify, and distribute
+            donations.
           </p>
         </div>
       </div>

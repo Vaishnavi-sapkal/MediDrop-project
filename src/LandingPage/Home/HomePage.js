@@ -12,8 +12,8 @@ function HomePage() {
       <Navbar />
       <HeroSection />
       <WorkInfo />
-      <Impact />
       <Reward />
+      <Impact />
       <OpenAccount />
       <Footer />
     </>

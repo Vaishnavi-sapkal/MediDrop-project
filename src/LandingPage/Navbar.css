@@ -1,0 +1,19 @@
+.logoimg {
+  height: 30px;
+}
+.navbar {
+  height: 80px;
+}
+.nav-item {
+  font-weight: 500;
+}
+.Brand {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.register {
+  display: flex;
+  text-align: center;
+  margin-left: 40rem;
+}
